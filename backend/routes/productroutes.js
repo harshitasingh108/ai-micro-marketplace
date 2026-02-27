@@ -11,7 +11,7 @@ router.post('/', async (req, res) => {
             description,
             image,
         }
-        );
+        ); 33
         res.status(201).json(product);
     } catch (err) {
         res.status(500).json(err);
